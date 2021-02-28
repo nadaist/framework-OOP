@@ -10,7 +10,7 @@
 	</div>
 <!-- //footer -->
 <!-- Bootstrap Core JavaScript -->
-<script src="asset/js/bootstrap.min.js"></script>
+<script src="<?= BASEURL; ?>/js/bootstrap.min.js"></script>
 <script>
 $(document).ready(function(){
     $(".dropdown").hover(            
@@ -42,7 +42,7 @@ $(document).ready(function(){
 			});
 	</script>
 <!-- //here ends scrolling icon -->
-<script src="asset/js/minicart.js"></script>
+<script src="<?= BASEURL; ?>/js/minicart.js"></script>
 <script>
 		paypal.minicart.render();
 
